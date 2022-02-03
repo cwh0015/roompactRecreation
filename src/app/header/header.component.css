@@ -64,3 +64,16 @@
     margin: 0%;
     background-color: #444 !important;
 }
+.mainLoginButton{
+    border-radius: 0 0 5px 5px;
+    background-color: #f7f7f7;
+    position: absolute;
+    top: 0;
+    right: calc(50% - 650px);
+    padding: 4px 25px;
+    font-family: ubuntu,sans-serif;
+    border: 1px solid #fff;
+    border-top: 0;
+    color: #1A405F;
+    font-size: 14px;
+}
