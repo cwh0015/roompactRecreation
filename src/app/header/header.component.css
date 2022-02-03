@@ -1,3 +1,66 @@
 .primaryNav {
     background-color: #0c1f30;
 }
+.roompactLogoPadding{
+    padding: 27px 13px !important;
+    margin-left: 90px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 15px;
+}
+.navbar{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.navbar-brand{
+ padding: 0%;
+}
+.mainNavDropdownItem{
+    color: #fff !important;
+    background:#1d405f !important;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 130%;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    text-transform: none;
+}
+.mainNavDropdown{
+    color: #fff !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    margin-left: 27px !important;
+    margin-right: 27px !important;
+    font-size: .85em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+.mainNavDividerLeftmost{
+    color:rgba(153, 153, 153, 0.507) !important;
+    padding:0%;
+    margin-bottom: 0%;
+}
+.mainNavDivider{
+    color:rgba(153, 153, 153, 0.507) !important;
+    padding:0%;
+    margin-top: 22px !important;
+}
+.container-fluid{
+    margin: 0%;
+    padding: 0%;
+}
+.mainNavBarList{
+    margin: 0% !important;
+    padding: 0% !important;
+    background-color: #444 !important;
+}
+.dropdown-divider{
+    margin: 0%;
+    background-color: #444 !important;
+}
