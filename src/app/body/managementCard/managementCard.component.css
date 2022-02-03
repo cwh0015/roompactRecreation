@@ -1,0 +1,10 @@
+.managementCardSecondHeading{
+    font-size: 2rem;
+    color: black;
+}
+.managementCardPicture{
+    margin-left: 180px;
+}
+.managementCardButton{
+    margin-left: 220px !important;
+}
