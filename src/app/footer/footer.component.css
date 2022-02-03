@@ -1,0 +1,50 @@
+.mainFooterContainer{
+    background-color:#0c1f30 !important;
+    max-width: 2000px !important;
+}
+
+.mainFooterPadding{
+    margin-left: 108.5px !important;
+    margin-right:108.5px !important;
+}
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 30px;  
+  }  
+  .fa-facebook {  
+    
+    color: #2e82cb;  
+  }  
+  .fa-twitter {  
+   
+    color: #2e82cb;  
+  }  
+  .fa-instagram {  
+ 
+    color: #2e82cb;  
+  }  
+  .fa-youtube {  
+
+    color: #2e82cb;  
+  }  
+  .fa-linkedin {  
+  
+    color: #2e82cb;  
+  }  
+  .footerSocialHeading{
+      color: white;
+      margin-left: 50px
+  }
+  .footerSocialContainer{
+      margin-left: 300px;
+  }
+
+  .col-2{
+      margin: 60px;
+  }
+  .footerImageList{
+      width: 400px;
+  }
