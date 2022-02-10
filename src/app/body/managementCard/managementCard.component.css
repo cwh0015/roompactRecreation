@@ -8,3 +8,7 @@
 .managementCardButton{
     margin-left: 220px !important;
 }
+.card-text-container{
+    max-width: 650px;
+    margin-bottom: 30px;
+}

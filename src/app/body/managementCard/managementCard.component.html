@@ -1,14 +1,18 @@
 <div class="card border-light mb-3" style="max-width: 1650px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img width="352.33" height="352.33" src="https://i0.wp.com/blog.roompact.com/wp-content/uploads/2021/01/Manage-1.png?resize=1000%2C1000&ssl=1" class="img-fluid rounded-start managementCardPicture" alt="...">
+        <img width="352.33" height="352.33" class="managementCardPicture"src={{img}} alt="...">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h2 class="card-title">Management</h2>
-          <p class="managementCardSecondHeading">Save Time and Effort</p>
-          <p class="card-text">Roompact’s software can help you simplify, centralize, and digitize paper processes.<br> If you’re tired of hacking things together with paper, shared drives, and spreadsheets,<br> we’re about to change your life!</p>
+          <h2 class="card-title">{{title}}</h2>
+          <p class="managementCardSecondHeading">{{subheading}}</p>
+          <div class="card-text-container">
+            <p class="card-text ">{{bodyInfo}}</p>
+          </div>
           <button type="button" class="btn btn-outline-secondary rounded-pill btn-lg managementCardButton">Learn More</button>
+
+       
         </div>
       </div>
     </div>
