@@ -1,12 +1,4 @@
-Created 6 new layout files 
-        management-layout
-        trends-layout
-        community-layout
-        learning-layout
-        assessment-layout
-        support-layout
-
-Added angular routing to each respective set of files
-Created app-routing file, added angular routing components for each layout file
-Removed code from app.component.html and replaced with router-outlet
-Added components to app.module.ts
+Created 6 new components, 3 in management layout, 3 in trends layout
+Created vertical card programmatically
+used flex to orient components
+All components except for vertical card created within management-layout and trends-layout
