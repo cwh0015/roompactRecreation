@@ -1,0 +1,10 @@
+.card-holder{
+    width: 25rem; padding: 1.5rem; margin:0.5rem;
+}
+.share-button{
+    background-image: url(/assets/share.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    size:50px;
+    margin-left: 10rem;
+}

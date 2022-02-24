@@ -1,0 +1,24 @@
+.managementCardSecondHeading{
+    font-size: 2rem;
+    color: black;
+}
+.card-text-container{
+    max-width: 650px;
+    margin-bottom: 30px;
+}
+.reverse-card-spacer{
+    margin-left: 300px;
+}
+.card-title{
+    font-size: 18px !important;
+    max-width: 700px !important;
+    line-height: 180% !important;
+    margin-bottom: 1.1em !important;
+    padding: 50px !important;
+}
+.card-body{
+    max-width: 600px !important;
+}
+.managementCardPicture{
+    padding: 20px;
+}

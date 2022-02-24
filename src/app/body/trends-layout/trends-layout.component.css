@@ -1,0 +1,65 @@
+.blue-container{
+    background-color: #8ed1fc;
+    width:fit-content;
+    
+}
+.first-blue-card-text {
+  color: white;
+  font-size: larger;
+  
+}
+.textHolder{
+    max-width: 650px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+.blue-card-image{
+    padding: 20px;
+}
+.p-2{
+    margin: 10px !important;
+    padding: 0 !important;
+}
+.columnHeader{
+    background-color: #1a405f;
+    max-width: 410px;
+}
+.text-spacer{
+    padding: 30px 90px;
+    color: white;
+}
+.bodyTextContainer{
+    max-width: 410px;
+    background-color: #8ed1fc;
+    margin-top: 25px !important;
+}
+.body-text-spacer{
+    padding: 15px 30px;
+    font-size: larger;
+}
+.text-spacer-2{
+    padding: 30px 120px;
+    color: white;
+}
+.text-spacer-3{
+    padding: 30px 90px;
+    padding-left: 120px !important;
+    color: white;
+}
+.blue-container-2{
+    background-color: #8ed1fc;
+    max-width: fit-content;
+    padding: 60px 200px;
+    margin-left:17%;
+}
+.text-color{
+    color: #1a405f;
+    padding: 10px;
+}
+.bodyText{
+    font-size: large;
+}
+.header-padding{
+    padding-left: 50px !important;
+}

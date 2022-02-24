@@ -1,1 +1,22 @@
-This is Management
+<div class = "d-flex justify-content-center">    
+    <img width = "1400px" height = "788px"src="./assets/managementBanner.png">
+</div>
+<div class="card border-light mb-3 reverse-card-spacer">
+    <div class="row g-0">
+        <div class="col">
+              <p class="card-title">Tired of using multiple software solutions or paper to manage your department’s most important processes? Many campuses turn to Roompact to help. As a purpose-built tool for residence life, Roompact’s software was designed by residence life and education experts to ensure you have the tools you need to be successful.</p>
+          </div>
+      <div class="col-md-8">
+        <img width="555.5" height="312.47" class="managementCardPicture" src="./assets/managementPageCardImage.png" alt="...">
+      </div>
+      
+    </div>
+  </div>
+<div class="d-flex justify-content-center">
+    <div *ngFor="let vertical_card of vertical_cards">
+        <app-vertical-card class="me-auto d-flex justify-content-center" img={{vertical_card.img}} title={{vertical_card.title}} subheading={{vertical_card.subheading}} bodyInfo={{vertical_card.bodyInfo}}>
+            Loading...
+        </app-vertical-card>
+    </div>
+
+</div>

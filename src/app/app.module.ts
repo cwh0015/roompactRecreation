@@ -14,6 +14,7 @@ import { CommunityLayoutComponent } from './body/community-layout/community-layo
 import { LearningLayoutComponent } from './body/learning-layout/learning-layout.component';
 import { AssessmentLayoutComponent } from './body/assessment-layout/assessment-layout.component';
 import { SupportLayoutComponent } from './body/support-layout/support-layout.component';
+import { VerticalCardComponent } from './body/vertical-card/vertical-card.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { SupportLayoutComponent } from './body/support-layout/support-layout.com
     CommunityLayoutComponent,
     LearningLayoutComponent,
     AssessmentLayoutComponent,
-    SupportLayoutComponent
+    SupportLayoutComponent,
+    VerticalCardComponent
   ],
   imports: [
     BrowserModule,
