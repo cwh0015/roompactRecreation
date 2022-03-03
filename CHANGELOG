@@ -1,4 +1,1 @@
-Created 6 new components, 3 in management layout, 3 in trends layout
-Created vertical card programmatically
-used flex to orient components
-All components except for vertical card created within management-layout and trends-layout
+Added backend database functionality to website
