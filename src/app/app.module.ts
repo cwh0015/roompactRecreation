@@ -15,7 +15,8 @@ import { LearningLayoutComponent } from './body/learning-layout/learning-layout.
 import { AssessmentLayoutComponent } from './body/assessment-layout/assessment-layout.component';
 import { SupportLayoutComponent } from './body/support-layout/support-layout.component';
 import { VerticalCardComponent } from './body/vertical-card/vertical-card.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component'
 
 @NgModule({
   declarations: [
@@ -31,11 +32,13 @@ import { VerticalCardComponent } from './body/vertical-card/vertical-card.compon
     LearningLayoutComponent,
     AssessmentLayoutComponent,
     SupportLayoutComponent,
-    VerticalCardComponent
+    VerticalCardComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
