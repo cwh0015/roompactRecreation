@@ -11,7 +11,7 @@ import { SupportLayoutComponent } from './body/support-layout/support-layout.com
 
 const routes: Routes = [
   {path: '', component: HomeLayoutComponent},
-  {path: 'Management-Layout', component: ManagementLayoutComponent},
+  {path: 'Management_Layout', component: ManagementLayoutComponent},
   {path: 'home', component: HomeLayoutComponent},
   {path:'Trends-Layout', component: TrendsLayoutComponent},
   {path: 'Community-Layout', component: CommunityLayoutComponent},
