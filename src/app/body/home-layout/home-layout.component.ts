@@ -1,6 +1,6 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { CardItemModel } from "../card-item.model";
-import { mock_card_list } from "../mock_card_list";
+import { CardsService } from "../cards.service";
 
 @Component({
     selector:'home-layout',
@@ -8,13 +8,18 @@ import { mock_card_list } from "../mock_card_list";
     styleUrls: ['home-layout.component.css']
 })
 
-export class HomeLayoutComponent{
+export class HomeLayoutComponent implements OnInit{
     cards: CardItemModel [] = [];
 
-  constructor() {
-    for (var card of mock_card_list) {
-      console.log(card);
-      this.cards.push(card);
-    }
+  constructor(private cardsService:CardsService) {
+  }
+  ngOnInit(): void {
+    this.cardsService.getCards().subscribe((data: CardItemModel []) => {
+      console.log("Fetching cards");
+      for(var card of data) {
+        console.log(card);
+        this.cards.push(card);
+      }
+    });
   }
 }
