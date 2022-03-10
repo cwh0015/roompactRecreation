@@ -1,1 +1,11 @@
-Added backend database functionality to website
+Main features:
+    Create service files
+      card.service.ts
+      vertical_card.service.ts
+    Move data from mock lists into firebase database lists
+    Created files grab information from database and give it to layout ts files to display on the website
+    Modified home-layout.component.ts and management-layout.component.ts
+      Added OnInit
+      Moved functionality to ngOnInit
+      used for loop to show card data
+    
