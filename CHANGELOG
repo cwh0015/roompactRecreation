@@ -1,8 +1,7 @@
-Main features:
-     Added Angular Fire library to project
-     
-     edited vertical_card.service.ts and card.service.ts to remove http cloent and add AngularFireDatabase
-     
-     reimplemented data fecthing method using angular fire
-     
-     built and deployed web app
+Main Features:
+    -created add-card.component files
+    -created addCard method in add-card.component.ts
+    -edited add-card.component.html to create form
+    -edited app-routing.module.ts to have route for admin page with form
+    -edited cards.service.ts to hade addCard method
+    
