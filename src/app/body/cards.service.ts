@@ -17,4 +17,7 @@ export class CardsService {
         return this.db.list<CardItemModel>("cards").valueChanges();
     }
      
+    public addCard(card:CardItemModel){
+        this.db.list<CardItemModel>("cards").push(card);
+    }
 }

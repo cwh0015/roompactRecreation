@@ -8,17 +8,44 @@ import { CommunityLayoutComponent } from './body/community-layout/community-layo
 import { LearningLayoutComponent } from './body/learning-layout/learning-layout.component';
 import { AssessmentLayoutComponent } from './body/assessment-layout/assessment-layout.component';
 import { SupportLayoutComponent } from './body/support-layout/support-layout.component';
+import { AddCardComponent } from './add-card/add-card.component';
 
 const routes: Routes = [
-  {path: '', component: HomeLayoutComponent},
-  {path: 'Management_Layout', component: ManagementLayoutComponent},
-  {path: 'home', component: HomeLayoutComponent},
-  {path:'Trends-Layout', component: TrendsLayoutComponent},
-  {path: 'Community-Layout', component: CommunityLayoutComponent},
-  {path: 'Learning-Layout', component: LearningLayoutComponent},
-  {path: 'Assessment-Layout', component: AssessmentLayoutComponent},
-  {path: 'Support-Layout', component: SupportLayoutComponent}
+  {
+    path: '', component: HomeLayoutComponent
+  },
+  
+  {
+    path: 'admin', component: AddCardComponent
+  },
 
+  {
+    path: 'Management_Layout', component: ManagementLayoutComponent
+  },
+
+  {
+    path: 'home', component: HomeLayoutComponent
+  },
+
+  {
+    path:'Trends-Layout', component: TrendsLayoutComponent
+  },
+
+  {
+    path: 'Community-Layout', component: CommunityLayoutComponent
+  },
+
+  {
+    path: 'Learning-Layout', component: LearningLayoutComponent
+  },
+
+  {
+    path: 'Assessment-Layout', component: AssessmentLayoutComponent
+  },
+
+  {
+    path: 'Support-Layout', component: SupportLayoutComponent
+  },
 ];
 
 @NgModule({

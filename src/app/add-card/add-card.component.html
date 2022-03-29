@@ -1,0 +1,38 @@
+<div class = "container">
+    <div class = "row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addCard(postForm.value)">
+                
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img" required>
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Title
+                    </span>
+                    <input type="text" class="form-control" ngModel name="title" required>
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Subheading
+                    </span>
+                    <input type="text" class="form-control" ngModel name="subheading" required>
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Body Text
+                    </span>
+                    <input type="text" class="form-control" ngModel name="bodyInfo" required>
+                </div>
+
+                <button class="btn" type="submit" [disabled]="!postForm.valid">Submit form</button>
+            </form>
+        </div>
+    </div>
+</div>
