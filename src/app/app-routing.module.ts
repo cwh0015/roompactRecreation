@@ -9,6 +9,7 @@ import { LearningLayoutComponent } from './body/learning-layout/learning-layout.
 import { AssessmentLayoutComponent } from './body/assessment-layout/assessment-layout.component';
 import { SupportLayoutComponent } from './body/support-layout/support-layout.component';
 import { AddCardComponent } from './add-card/add-card.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   
   {
     path: 'admin', component: AddCardComponent
+  },
+
+  {
+    path: 'auth', component: AuthenticationComponent
   },
 
   {
