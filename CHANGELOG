@@ -1,7 +1,7 @@
 Main Features:
-    -created add-card.component files
-    -created addCard method in add-card.component.ts
-    -edited add-card.component.html to create form
-    -edited app-routing.module.ts to have route for admin page with form
-    -edited cards.service.ts to hade addCard method
-    
+    -created authentication.component files
+    -added auth path in app-routing.module
+    -created imports for authentication component in app.module
+    -created ng form for email and password login
+    -added authentication to ng form
+    -sent form information to firebase backend
